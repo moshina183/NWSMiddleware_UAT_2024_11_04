@@ -1,0 +1,106 @@
+2024-10-30 08:23:51,237 DEBUG [main] o.s.b.c.p.s.ConfigurationPropertySourcesPropertyResolver$DefaultResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getTrafficInformationURL-internal-service-url' in PropertySource 'Config resource 'class path resource [application.properties]' via location 'optional:classpath:/'' with value of type String
+2024-10-30 08:23:51,239 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getTrafficInformationURL-internal-service-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,240 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getplotdetailsbycrookie-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,270 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getplotdetailsbycrookie-soap-action' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,271 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getplotdetailsbycrookie.username' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,272 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getplotdetailsbycrookie.password' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,273 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getsocialbenefitdata.username' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,273 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getsocialbenefitdata.password' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,274 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getsocialbenefitdata-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,274 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getsocialbenefitdata-soap-action' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,275 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getmeterreading-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,275 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'auth-username' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,276 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'auth-password' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,277 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'connectionHelper'
+2024-10-30 08:23:51,278 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'globalExceptionHandler'
+2024-10-30 08:23:51,280 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'DBUtils'
+2024-10-30 08:23:51,281 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'esb-db-classname' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,282 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'esb-db-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,283 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'esb-db-username' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,284 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'esb-db-password' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,285 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'timestamp.duration' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,285 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'content-length' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,286 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'loadProperties'
+2024-10-30 08:23:51,288 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+2024-10-30 08:23:51,289 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration'
+2024-10-30 08:23:51,289 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration'
+2024-10-30 08:23:51,290 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+2024-10-30 08:23:51,302 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration'
+2024-10-30 08:23:51,303 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration'
+2024-10-30 08:23:51,304 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'taskExecutorBuilder'
+2024-10-30 08:23:51,306 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+2024-10-30 08:23:51,308 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'taskExecutorBuilder' via factory method to bean named 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+2024-10-30 08:23:51,311 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration'
+2024-10-30 08:23:51,313 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'error'
+2024-10-30 08:23:51,314 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'beanNameViewResolver'
+2024-10-30 08:23:51,316 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration'
+2024-10-30 08:23:51,318 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+2024-10-30 08:23:51,322 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6175619b'
+2024-10-30 08:23:51,322 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+2024-10-30 08:23:51,323 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'conventionErrorViewResolver'
+2024-10-30 08:23:51,326 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'errorAttributes'
+2024-10-30 08:23:51,331 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'basicErrorController'
+2024-10-30 08:23:51,332 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'basicErrorController' via factory method to bean named 'errorAttributes'
+2024-10-30 08:23:51,335 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+2024-10-30 08:23:51,338 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2024-10-30 08:23:51,339 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+2024-10-30 08:23:51,339 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@51b01960'
+2024-10-30 08:23:51,357 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter'
+2024-10-30 08:23:51,358 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+2024-10-30 08:23:51,358 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2024-10-30 08:23:51,359 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@51b01960'
+2024-10-30 08:23:51,362 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+2024-10-30 08:23:51,366 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'mvcContentNegotiationManager'

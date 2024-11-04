@@ -1,0 +1,96 @@
+2024-10-30 09:39:06,228 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcConversionService'
+2024-10-30 09:39:06,281 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2024-10-30 09:39:06,302 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'beanNameHandlerMapping'
+2024-10-30 09:39:06,305 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcConversionService'
+2024-10-30 09:39:06,317 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2024-10-30 09:39:06,335 DEBUG [main] _.s.w.s.H.Mappings [AbstractDetectingUrlHandlerMapping.java:86] 
+'beanNameHandlerMapping' {}
+2024-10-30 09:39:06,336 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'routerFunctionMapping'
+2024-10-30 09:39:06,338 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcConversionService'
+2024-10-30 09:39:06,338 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2024-10-30 09:39:06,358 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'resourceHandlerMapping'
+2024-10-30 09:39:06,360 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2024-10-30 09:39:06,360 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcConversionService'
+2024-10-30 09:39:06,361 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2024-10-30 09:39:06,387 DEBUG [main] _.s.w.s.H.Mappings [SimpleUrlHandlerMapping.java:177] 
+'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2024-10-30 09:39:06,388 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+2024-10-30 09:39:06,389 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'handlerFunctionAdapter'
+2024-10-30 09:39:06,393 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2024-10-30 09:39:06,508 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'mvcConversionService'
+2024-10-30 09:39:06,508 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'requestMappingHandlerAdapter'
+2024-10-30 09:39:06,517 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+2024-10-30 09:39:06,520 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+2024-10-30 09:39:06,534 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'handlerExceptionResolver'
+2024-10-30 09:39:06,535 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'handlerExceptionResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2024-10-30 09:39:06,544 DEBUG [main] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [ExceptionHandlerExceptionResolver.java:307] 
+ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-30 09:39:06,549 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'mvcViewResolver'
+2024-10-30 09:39:06,550 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'mvcViewResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2024-10-30 09:39:06,562 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'viewNameTranslator'
+2024-10-30 09:39:06,573 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'defaultViewResolver'
+2024-10-30 09:39:06,945 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'viewResolver'
+2024-10-30 09:39:06,947 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'viewResolver' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@6075b2d3'
+2024-10-30 09:39:06,956 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'viewResolver'
+2024-10-30 09:39:06,959 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'requestContextFilter'
+2024-10-30 09:39:06,972 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration'
+2024-10-30 09:39:06,975 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'formContentFilter'
+2024-10-30 09:39:06,989 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration'
+2024-10-30 09:39:06,992 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration'
+2024-10-30 09:39:06,994 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration'
+2024-10-30 09:39:06,996 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'applicationAvailability'
+2024-10-30 09:39:07,002 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration'
+2024-10-30 09:39:07,006 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration'
+2024-10-30 09:39:07,008 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'lifecycleProcessor'
+2024-10-30 09:39:07,011 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties'
+2024-10-30 09:39:07,015 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'lifecycleProcessor' via factory method to bean named 'spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties'
+2024-10-30 09:39:07,021 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration'
+2024-10-30 09:39:07,024 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'gsonBuilder'
+2024-10-30 09:39:07,025 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'standardGsonBuilderCustomizer'
+2024-10-30 09:39:07,026 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'spring.gson-org.springframework.boot.autoconfigure.gson.GsonProperties'
+2024-10-30 09:39:07,034 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'standardGsonBuilderCustomizer' via factory method to bean named 'spring.gson-org.springframework.boot.autoconfigure.gson.GsonProperties'

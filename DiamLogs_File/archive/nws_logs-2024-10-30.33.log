@@ -1,0 +1,66 @@
+2024-10-30 09:38:56,162 INFO [main] o.s.b.t.c.SpringBootTestContextBootstrapper [AbstractTestContextBootstrapper.java:174] 
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@191ae03f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@9635fa, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@53ab0286, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@63c5efee, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2d10e0b1, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1c98290c, org.springframework.test.context.event.EventPublishingTestExecutionListener@172ca72b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5bda80bf, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@71e5f61d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2ce86164, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5e8f9e2d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@51df223b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@fd46303]
+2024-10-30 09:38:56,175 DEBUG [main] o.s.t.c.s.AbstractDirtiesContextTestExecutionListener [AbstractDirtiesContextTestExecutionListener.java:143] 
+Before test class: context [DefaultTestContext@5f59185e testClass = NwsMiddlewareApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@60bdf15d testClass = NwsMiddlewareApplicationTests, locations = '{}', classes = '{class com.nws.api.NwsMiddlewareApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4b1d6571, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6e950bcf, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7862f56, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@e19bb76, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@79c7532f, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@10e41621], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+2024-10-30 09:38:57,474 INFO [main] c.n.a.NwsMiddlewareApplicationTests [StartupInfoLogger.java:55] 
+Starting NwsMiddlewareApplicationTests using Java 11.0.10 on DIAM-ITAMIDWARE with PID 40672 (started by PAMIDMGMT in D:\allConfigData\NwsMiddleware_UAT)
+2024-10-30 09:38:57,476 DEBUG [main] c.n.a.NwsMiddlewareApplicationTests [StartupInfoLogger.java:56] 
+Running with Spring Boot v2.7.9, Spring v5.3.25
+2024-10-30 09:38:57,477 INFO [main] c.n.a.NwsMiddlewareApplicationTests [SpringApplication.java:631] 
+No active profile set, falling back to 1 default profile: "default"
+2024-10-30 09:38:57,479 DEBUG [main] o.s.b.SpringApplication [SpringApplication.java:664] 
+Loading source class com.nws.api.NwsMiddlewareApplication
+2024-10-30 09:38:57,608 DEBUG [main] o.s.w.c.s.GenericWebApplicationContext [AbstractApplicationContext.java:629] 
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@c827db
+2024-10-30 09:38:57,833 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2024-10-30 09:38:57,868 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2024-10-30 09:38:57,975 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware_UAT\target\classes\com\nws\api\config\WebConfig.class]
+2024-10-30 09:38:58,020 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware_UAT\target\classes\com\nws\api\controller\Controllers.class]
+2024-10-30 09:38:58,032 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware_UAT\target\classes\com\nws\api\controller\DiamControllerVer1.class]
+2024-10-30 09:38:58,047 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware_UAT\target\classes\com\nws\api\controller\DiamControllerVer2.class]
+2024-10-30 09:38:58,051 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware_UAT\target\classes\com\nws\api\esb\ConnectionHelper.class]
+2024-10-30 09:38:58,059 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware_UAT\target\classes\com\nws\api\exception\GlobalExceptionHandler.class]
+2024-10-30 09:38:58,065 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware_UAT\target\classes\com\nws\api\interceptor\BaseInterceptor.class]
+2024-10-30 09:38:58,109 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware_UAT\target\classes\com\nws\api\service\DiamServiceVer1.class]
+2024-10-30 09:38:58,166 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware_UAT\target\classes\com\nws\api\service\DiamServiceVer2.class]
+2024-10-30 09:38:58,211 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware_UAT\target\classes\com\nws\api\service\GetRecordCSHandlerVer1.class]
+2024-10-30 09:38:58,213 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware_UAT\target\classes\com\nws\api\service\GetRecordCSHandlerVer2.class]
+2024-10-30 09:38:58,216 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware_UAT\target\classes\com\nws\api\service\GetRecordGISCSHandlerVer1.class]
+2024-10-30 09:38:58,217 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware_UAT\target\classes\com\nws\api\service\GetRecordGISCSHandlerVer2.class]
+2024-10-30 09:38:58,224 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware_UAT\target\classes\com\nws\api\utils\DBUtils.class]
+2024-10-30 09:39:00,813 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+2024-10-30 09:39:00,862 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor'
+2024-10-30 09:39:00,915 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+2024-10-30 09:39:01,042 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2024-10-30 09:39:01,047 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+2024-10-30 09:39:01,049 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'forceAutoProxyCreatorToUseClassProxying'
+2024-10-30 09:39:01,052 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2024-10-30 09:39:01,077 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor$SpyPostProcessor'
+2024-10-30 09:39:01,080 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2024-10-30 09:39:01,084 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'

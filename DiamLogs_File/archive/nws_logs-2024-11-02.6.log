@@ -1,0 +1,96 @@
+2024-11-02 07:30:40,493 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware_UAT\target\classes\com\nws\api\service\DiamServiceVer2.class]
+2024-11-02 07:30:40,514 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware_UAT\target\classes\com\nws\api\service\GetRecordCSHandlerVer1.class]
+2024-11-02 07:30:40,515 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware_UAT\target\classes\com\nws\api\service\GetRecordCSHandlerVer2.class]
+2024-11-02 07:30:40,553 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware_UAT\target\classes\com\nws\api\service\GetRecordGISCSHandlerVer1.class]
+2024-11-02 07:30:40,554 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware_UAT\target\classes\com\nws\api\service\GetRecordGISCSHandlerVer2.class]
+2024-11-02 07:30:40,559 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware_UAT\target\classes\com\nws\api\utils\DBUtils.class]
+2024-11-02 07:30:42,308 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+2024-11-02 07:30:42,320 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor'
+2024-11-02 07:30:42,330 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+2024-11-02 07:30:42,407 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2024-11-02 07:30:42,410 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+2024-11-02 07:30:42,411 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'forceAutoProxyCreatorToUseClassProxying'
+2024-11-02 07:30:42,413 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2024-11-02 07:30:42,435 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor$SpyPostProcessor'
+2024-11-02 07:30:42,438 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2024-11-02 07:30:42,441 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2024-11-02 07:30:42,447 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2024-11-02 07:30:42,448 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+2024-11-02 07:30:42,449 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+2024-11-02 07:30:42,453 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'annotationActionEndpointMapping'
+2024-11-02 07:30:42,454 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration'
+2024-11-02 07:30:42,481 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:376] 
+Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$e25e26e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-11-02 07:30:42,676 INFO [main] o.s.w.s.a.s.AnnotationActionEndpointMapping [AbstractAddressingEndpointMapping.java:239] 
+Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-11-02 07:30:42,677 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2024-11-02 07:30:42,724 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'webServerFactoryCustomizerBeanPostProcessor'
+2024-11-02 07:30:42,732 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
+2024-11-02 07:30:42,744 DEBUG [main] o.s.u.c.s.UiApplicationContextUtils [UiApplicationContextUtils.java:85] 
+Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@5f481b73]
+2024-11-02 07:30:42,759 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'nwsMiddlewareApplication'
+2024-11-02 07:30:42,771 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'webConfig'
+2024-11-02 07:30:42,789 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'baseInterceptor'
+2024-11-02 07:30:42,800 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'controllers'
+2024-11-02 07:30:42,806 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'diamControllerVer1'
+2024-11-02 07:30:42,833 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'diamServiceVer1'
+2024-11-02 07:30:42,840 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getbilldata-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-11-02 07:30:42,842 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getbillpdf-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-11-02 07:30:42,844 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getgbill64-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-11-02 07:30:42,845 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getbilldetails-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-11-02 07:30:42,847 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getbillsummary-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-11-02 07:30:42,848 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getgroupbilldetails-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-11-02 07:30:42,849 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getgroupbillinfo-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-11-02 07:30:42,850 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'inquirypayment-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-11-02 07:30:42,852 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'getRecordCSHandlerVer1'
+2024-11-02 07:30:42,858 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getmeterreading-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-11-02 07:30:42,863 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getrecordcs-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-11-02 07:30:42,864 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'gis-getrecord-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-11-02 07:30:42,866 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'auth-username' in PropertySource 'environmentProperties' with value of type String
+2024-11-02 07:30:42,867 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'auth-password' in PropertySource 'environmentProperties' with value of type String
+2024-11-02 07:30:42,870 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'getRecordGISCSHandlerVer1'

@@ -1,0 +1,128 @@
+2024-10-30 08:23:50,964 DEBUG [main] o.s.b.w.s.f.OrderedCharacterEncodingFilter [GenericFilterBean.java:242] 
+Filter 'characterEncodingFilter' configured for use
+2024-10-30 08:23:50,967 DEBUG [main] o.s.b.w.s.f.OrderedFormContentFilter [GenericFilterBean.java:242] 
+Filter 'formContentFilter' configured for use
+2024-10-30 08:23:50,981 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'nwsMiddlewareApplication'
+2024-10-30 08:23:50,983 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'webConfig'
+2024-10-30 08:23:50,987 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'baseInterceptor'
+2024-10-30 08:23:50,992 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'controllers'
+2024-10-30 08:23:50,996 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'diamControllerVer1'
+2024-10-30 08:23:51,010 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'diamServiceVer1'
+2024-10-30 08:23:51,013 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getbilldata-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,014 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getbillpdf-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,016 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getgbill64-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,016 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getbilldetails-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,017 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getbillsummary-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,018 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getgroupbilldetails-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,019 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getgroupbillinfo-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,020 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'inquirypayment-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,023 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'getRecordCSHandlerVer1'
+2024-10-30 08:23:51,025 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getmeterreading-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,025 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getrecordcs-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,184 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'gis-getrecord-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,185 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'auth-username' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,186 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'auth-password' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,188 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'getRecordGISCSHandlerVer1'
+2024-10-30 08:23:51,189 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getmeterreading-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,190 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getrecordcs-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,191 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'gis-getrecord-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,192 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'auth-username' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,192 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'auth-password' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,193 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getplotdetailsbycrookie-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,194 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getplotdetailsbycrookie-soap-action' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,195 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getplotdetailsbycrookie.username' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,195 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getplotdetailsbycrookie.password' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,196 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getsocialbenefitdata.username' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,197 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getsocialbenefitdata.password' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,198 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getsocialbenefitdata-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,199 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getsocialbenefitdata-soap-action' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,200 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getsocialbenefitdata-target-request-body' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,201 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getmeterreading-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,201 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'auth-username' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,202 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'auth-password' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,203 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'diamControllerVer2'
+2024-10-30 08:23:51,208 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'diamServiceVer2'
+2024-10-30 08:23:51,212 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getbilldata-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,213 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getbillpdf-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,222 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getgbill64-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,223 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getbilldetails-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,223 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getbillsummary-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,224 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getgroupbilldetails-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,225 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getgroupbillinfo-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,225 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'inquirypayment-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,226 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'getRecordCSHandlerVer2'
+2024-10-30 08:23:51,228 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getmeterreading-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,228 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getrecordcs-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,229 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'gis-getrecord-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,229 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'auth-username' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,230 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'auth-password' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,231 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'getRecordGISCSHandlerVer2'
+2024-10-30 08:23:51,232 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getmeterreading-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,233 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getrecordcs-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,233 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'gis-getrecord-target-url' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,234 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'auth-username' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,234 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'auth-password' in PropertySource 'environmentProperties' with value of type String
+2024-10-30 08:23:51,235 DEBUG [main] o.s.b.c.p.s.ConfigurationPropertySourcesPropertyResolver$DefaultResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getPersonInformationURL-internal-service-url' in PropertySource 'Config resource 'class path resource [application.properties]' via location 'optional:classpath:/'' with value of type String
+2024-10-30 08:23:51,235 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:115] 
+Found key 'getPersonInformationURL-internal-service-url' in PropertySource 'environmentProperties' with value of type String

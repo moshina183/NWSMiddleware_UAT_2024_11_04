@@ -1,0 +1,96 @@
+2024-10-30 09:39:03,881 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'org.springframework.web.context.support.GenericWebApplicationContext@c827db'
+2024-10-30 09:39:04,415 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+2024-10-30 09:39:04,418 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'conventionErrorViewResolver'
+2024-10-30 09:39:04,426 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'errorAttributes'
+2024-10-30 09:39:04,432 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'basicErrorController'
+2024-10-30 09:39:04,436 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'basicErrorController' via factory method to bean named 'errorAttributes'
+2024-10-30 09:39:04,444 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+2024-10-30 09:39:04,449 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2024-10-30 09:39:04,449 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+2024-10-30 09:39:04,449 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@6075b2d3'
+2024-10-30 09:39:04,468 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter'
+2024-10-30 09:39:04,469 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+2024-10-30 09:39:04,470 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2024-10-30 09:39:04,470 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@6075b2d3'
+2024-10-30 09:39:04,483 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+2024-10-30 09:39:04,489 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2024-10-30 09:39:04,504 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'mvcConversionService'
+2024-10-30 09:39:04,523 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'mvcValidator'
+2024-10-30 09:39:04,528 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+2024-10-30 09:39:04,529 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+2024-10-30 09:39:04,529 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+2024-10-30 09:39:04,531 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+2024-10-30 09:39:04,531 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+2024-10-30 09:39:04,532 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+2024-10-30 09:39:04,552 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'messageConverters'
+2024-10-30 09:39:04,553 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration'
+2024-10-30 09:39:04,569 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'stringHttpMessageConverter'
+2024-10-30 09:39:04,773 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration'
+2024-10-30 09:39:04,780 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'stringHttpMessageConverter' via factory method to bean named 'environment'
+2024-10-30 09:39:04,806 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'mappingJackson2HttpMessageConverter'
+2024-10-30 09:39:04,807 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration'
+2024-10-30 09:39:04,812 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'jacksonObjectMapper'
+2024-10-30 09:39:04,813 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration'
+2024-10-30 09:39:04,818 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration'
+2024-10-30 09:39:04,826 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'standardJacksonObjectMapperBuilderCustomizer'
+2024-10-30 09:39:04,826 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+2024-10-30 09:39:04,830 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+2024-10-30 09:39:04,850 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'org.springframework.web.context.support.GenericWebApplicationContext@c827db'
+2024-10-30 09:39:04,851 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+2024-10-30 09:39:04,867 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'org.springframework.web.context.support.GenericWebApplicationContext@c827db'
+2024-10-30 09:39:04,868 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'standardJacksonObjectMapperBuilderCustomizer'
+2024-10-30 09:39:04,871 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'parameterNamesModule'
+2024-10-30 09:39:04,873 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration'
+2024-10-30 09:39:05,080 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'jsonComponentModule'
+2024-10-30 09:39:05,081 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration'
+2024-10-30 09:39:05,102 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'jsonMixinModule'
+2024-10-30 09:39:05,105 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'jsonMixinModule' via factory method to bean named 'org.springframework.web.context.support.GenericWebApplicationContext@c827db'
+2024-10-30 09:39:05,106 DEBUG [main] o.s.b.a.AutoConfigurationPackages [AutoConfigurationPackages.java:196] 
+@EnableAutoConfiguration was declared on a class in the package 'com.nws.api'. Automatic @Repository and @Entity scanning is enabled.

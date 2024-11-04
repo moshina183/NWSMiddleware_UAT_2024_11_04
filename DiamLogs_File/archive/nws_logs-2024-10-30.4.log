@@ -1,0 +1,197 @@
+2024-10-30 08:23:52,630 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'mvcConversionService'
+2024-10-30 08:23:52,639 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'mvcValidator'
+2024-10-30 08:23:52,646 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+2024-10-30 08:23:52,647 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+2024-10-30 08:23:52,743 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+2024-10-30 08:23:52,746 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+2024-10-30 08:23:52,747 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+2024-10-30 08:23:52,747 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+2024-10-30 08:23:52,769 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'messageConverters'
+2024-10-30 08:23:52,769 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration'
+2024-10-30 08:23:52,777 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'stringHttpMessageConverter'
+2024-10-30 08:23:52,778 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration'
+2024-10-30 08:23:52,779 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'stringHttpMessageConverter' via factory method to bean named 'environment'
+2024-10-30 08:23:52,785 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'mappingJackson2HttpMessageConverter'
+2024-10-30 08:23:52,786 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration'
+2024-10-30 08:23:52,838 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'jacksonObjectMapper'
+2024-10-30 08:23:52,840 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration'
+2024-10-30 08:23:52,843 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration'
+2024-10-30 08:23:52,876 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'standardJacksonObjectMapperBuilderCustomizer'
+2024-10-30 08:23:52,877 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+2024-10-30 08:23:52,879 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+2024-10-30 08:23:52,888 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6175619b'
+2024-10-30 08:23:52,889 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+2024-10-30 08:23:52,892 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6175619b'
+2024-10-30 08:23:52,892 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'standardJacksonObjectMapperBuilderCustomizer'
+2024-10-30 08:23:52,896 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'parameterNamesModule'
+2024-10-30 08:23:52,896 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration'
+2024-10-30 08:23:52,905 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'jsonComponentModule'
+2024-10-30 08:23:52,905 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration'
+2024-10-30 08:23:52,918 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'jsonMixinModule'
+2024-10-30 08:23:52,920 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'jsonMixinModule' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6175619b'
+2024-10-30 08:23:52,921 DEBUG [main] o.s.b.a.AutoConfigurationPackages [AutoConfigurationPackages.java:196] 
+@EnableAutoConfiguration was declared on a class in the package 'com.nws.api'. Automatic @Repository and @Entity scanning is enabled.
+2024-10-30 08:23:52,937 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'jacksonObjectMapper' via factory method to bean named 'jacksonObjectMapperBuilder'
+2024-10-30 08:23:52,971 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'mappingJackson2HttpMessageConverter' via factory method to bean named 'jacksonObjectMapper'
+2024-10-30 08:23:52,994 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'applicationTaskExecutor'
+2024-10-30 08:23:52,995 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'applicationTaskExecutor' via factory method to bean named 'taskExecutorBuilder'
+2024-10-30 08:23:53,005 DEBUG [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] 
+Initializing ExecutorService 'applicationTaskExecutor'
+2024-10-30 08:23:53,035 DEBUG [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java:625] 
+ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-30 08:23:53,236 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'welcomePageHandlerMapping'
+2024-10-30 08:23:53,240 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+2024-10-30 08:23:53,247 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6175619b'
+2024-10-30 08:23:53,247 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'mvcConversionService'
+2024-10-30 08:23:53,251 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2024-10-30 08:23:53,276 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'localeResolver'
+2024-10-30 08:23:53,280 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'themeResolver'
+2024-10-30 08:23:53,283 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'flashMapManager'
+2024-10-30 08:23:53,289 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+2024-10-30 08:23:53,292 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2024-10-30 08:23:53,293 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+2024-10-30 08:23:53,293 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2024-10-30 08:23:53,347 DEBUG [main] _.s.w.s.H.Mappings [AbstractHandlerMethodMapping.java:295] 
+
+	c.n.a.c.Controllers:
+	{GET [/api/v1/test]}: getName()
+2024-10-30 08:23:53,364 DEBUG [main] _.s.w.s.H.Mappings [AbstractHandlerMethodMapping.java:295] 
+
+	c.n.a.c.DiamControllerVer1:
+	{GET [/api/v1/GetGISDetails/{accountId}/{lat}], produces [application/json]}: getRecordsGISServiceWithAccontIdAndLat(Optional,Optional,Optional,HttpServletRequest,HttpServletResponse,Map)
+	{POST [/api/v1/getplotdetailsbycrookie], produces [application/xml]}: getPlotDetailsByCrookie(Envelope,HttpServletRequest,HttpServletResponse)
+	{GET [/api/v1/GetGISDetails/{accountId}], produces [application/json]}: getRecordsGISServiceWithAccontId(Optional,Optional,Optional,HttpServletRequest,HttpServletResponse,Map)
+	{POST [/api/v1/getsocialbenefitdata], produces [application/xml]}: getSocialBenefitData(Envelope,HttpServletRequest,HttpServletResponse)
+	{GET [/api/v1/GetGroupBillDetails], produces [application/json]}: getGroupBillDetails(String,String,String,HttpServletRequest,HttpServletResponse,Map)
+	{GET [/api/v1/GetGISDetails/{accountId}/{lat}/{long}], produces [application/json]}: getRecordsGISService(Optional,Optional,Optional,HttpServletRequest,HttpServletResponse,Map)
+	{GET [/api/v1/GetGISMap/{accountId}], produces [application/json]}: getRecordsCSOnlyAccountID(Optional,Optional,Optional,HttpServletRequest,HttpServletResponse)
+	{GET [/api/v1/GetGISMap/{accountId}/{lat}], produces [application/json]}: getRecordsCSOnlyAccountIDAndLat(Optional,Optional,Optional,HttpServletRequest,HttpServletResponse)
+	{POST [/api/v1/getmeterreading], produces [application/json]}: getMeterReading(HttpServletRequest,HttpServletResponse,MeterReading,Map)
+	{GET [/api/v1/getBillData], produces [application/json]}: getBillDataService(String,String,HttpServletRequest,HttpServletResponse,Map)
+	{GET [/api/v1/GetGISMap/{accountId}/{lat}/{long}], produces [application/json]}: getRecordsCS(Optional,Optional,Optional,HttpServletRequest,HttpServletResponse)
+	{GET [/api/v1/GetBill64], produces [application/json]}: getBill64(String,String,HttpServletRequest,HttpServletResponse,Map)
+	{GET [/api/v1/GetBillPdf], produces [application/json]}: getBillPdf(String,String,HttpServletRequest,HttpServletResponse,Map)
+	{GET [/api/v1/InquiryPayment], produces [application/json]}: inquiryPayment(String,String,HttpServletRequest,HttpServletResponse,Map)
+	{GET [/api/v1/GetBillsDetails], produces [application/json]}: getBillDetails(String,String,HttpServletRequest,HttpServletResponse,Map)
+	{GET [/api/v1/GetGroupBillsInfo], produces [application/json]}: getGroupBillInfo(String,String,String,HttpServletRequest,HttpServletResponse,Map)
+	{GET [/api/v1/GetBillsSummary], produces [application/json]}: getBillSummary(String,String,HttpServletRequest,HttpServletResponse,Map)
+2024-10-30 08:23:53,378 DEBUG [main] _.s.w.s.H.Mappings [AbstractHandlerMethodMapping.java:295] 
+
+	c.n.a.c.DiamControllerVer2:
+	{GET [/api/v2/GetGISDetails/{accountId}/{lat}], produces [application/json]}: getRecordsGISServiceWithAccontIdAndLat(Optional,Optional,Optional,HttpServletRequest,HttpServletResponse,Map)
+	{POST [/api/v2/getplotdetailsbycrookie], produces [application/xml]}: getPlotDetailsByCrookie(Envelope,HttpServletRequest,HttpServletResponse)
+	{GET [/api/v2/GetGISDetails/{accountId}], produces [application/json]}: getRecordsGISServiceWithAccontId(Optional,Optional,Optional,HttpServletRequest,HttpServletResponse,Map)
+	{POST [/api/v2/getsocialbenefitdata], produces [application/xml]}: getSocialBenefitData(Envelope,HttpServletRequest,HttpServletResponse)
+	{GET [/api/v2/getDataFromDb]}: getEncryptionStatus(String)
+	{GET [/api/v2/GetGroupBillDetails], produces [application/json]}: getGroupBillDetails(String,String,String,HttpServletRequest,HttpServletResponse,Map)
+	{POST [/api/v2/getpersoninformation], produces [application/xml]}: getPersonInformation(String,HttpServletRequest,HttpServletResponse)
+	{GET [/api/v2/GetGISDetails/{accountId}/{lat}/{long}], produces [application/json]}: getRecordsGISService(Optional,Optional,Optional,HttpServletRequest,HttpServletResponse,Map)
+	{POST [/api/v2/gettrafficinformaton], produces [application/xml]}: getTrafficInformation(String,HttpServletRequest,HttpServletResponse)
+	{POST [/api/v2/getplotdetailsbycrookieTest], produces [application/xml]}: getPlotDetailsByCrookieTest(Envelope,HttpServletRequest,HttpServletResponse)
+	{GET [/api/v2/getBillDataTest], produces [application/json]}: getBillDataService1(String,String)
+	{GET [/api/v2/GetGISMap/{accountId}], produces [application/json]}: getRecordsCSOnlyAccountID(Optional,Optional,Optional,HttpServletRequest,HttpServletResponse)
+	{GET [/api/v2/GetGISMap/{accountId}/{lat}], produces [application/json]}: getRecordsCSOnlyAccountIDAndLat(Optional,Optional,Optional,HttpServletRequest,HttpServletResponse)
+	{POST [/api/v2/getmeterreading], produces [application/json]}: getMeterReading(HttpServletRequest,HttpServletResponse,MeterReading,Map)
+	{GET [/api/v2/getBillData], produces [application/json]}: getBillDataService(String,String,HttpServletRequest,HttpServletResponse,Map)
+	{GET [/api/v2/GetGISMap/{accountId}/{lat}/{long}], produces [application/json]}: getRecordsCS(Optional,Optional,Optional,HttpServletRequest,HttpServletResponse)
+	{GET [/api/v2/GetBill64], produces [application/json]}: getBill64(String,String,HttpServletRequest,HttpServletResponse,Map)
+	{GET [/api/v2/GetBillPdf], produces [application/json]}: getBillPdf(String,String,HttpServletRequest,HttpServletResponse,Map)
+	{GET [/api/v2/InquiryPayment], produces [application/json]}: inquiryPayment(String,String,HttpServletRequest,HttpServletResponse,Map)
+	{GET [/api/v2/GetBillsDetails], produces [application/json]}: getBillDetails(String,String,HttpServletRequest,HttpServletResponse,Map)
+	{GET [/api/v2/GetGroupBillsInfo], produces [application/json]}: getGroupBillInfo(String,String,String,HttpServletRequest,HttpServletResponse,Map)
+	{GET [/api/v2/test]}: testApi()
+	{GET [/api/v2/GetBillsSummary], produces [application/json]}: getBillSummary(String,String,HttpServletRequest,HttpServletResponse,Map)
+2024-10-30 08:23:53,400 DEBUG [main] _.s.w.s.H.Mappings [AbstractHandlerMethodMapping.java:295] 
+
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+	{ [/error]}: error(HttpServletRequest)
+2024-10-30 08:23:53,413 DEBUG [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:367] 
+43 mappings in 'requestMappingHandlerMapping'
+2024-10-30 08:23:53,419 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'mvcPatternParser'
+2024-10-30 08:23:53,421 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'mvcUrlPathHelper'
+2024-10-30 08:23:53,421 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'mvcPathMatcher'
+2024-10-30 08:23:53,421 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+2024-10-30 08:23:53,556 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcConversionService'
+2024-10-30 08:23:53,557 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2024-10-30 08:23:53,558 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'beanNameHandlerMapping'
+2024-10-30 08:23:53,559 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcConversionService'
+2024-10-30 08:23:53,560 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2024-10-30 08:23:53,563 DEBUG [main] _.s.w.s.H.Mappings [AbstractDetectingUrlHandlerMapping.java:86] 
+'beanNameHandlerMapping' {}
+2024-10-30 08:23:53,564 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'routerFunctionMapping'
+2024-10-30 08:23:53,566 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcConversionService'
+2024-10-30 08:23:53,567 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2024-10-30 08:23:53,573 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'resourceHandlerMapping'
+2024-10-30 08:23:53,577 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2024-10-30 08:23:53,578 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcConversionService'
+2024-10-30 08:23:53,578 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:808] 
+Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2024-10-30 08:23:53,616 DEBUG [main] _.s.w.s.H.Mappings [SimpleUrlHandlerMapping.java:177] 
+'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2024-10-30 08:23:53,622 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+2024-10-30 08:23:53,623 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'handlerFunctionAdapter'

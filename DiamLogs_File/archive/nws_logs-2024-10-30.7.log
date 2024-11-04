@@ -1,0 +1,134 @@
+2024-10-30 08:31:21,992 INFO [http-nio-9990-exec-2] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] 
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-30 08:31:22,144 INFO [http-nio-9990-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] 
+Initializing Servlet 'dispatcherServlet'
+2024-10-30 08:31:22,144 DEBUG [http-nio-9990-exec-2] o.s.w.s.DispatcherServlet [DispatcherServlet.java:521] 
+Detected StandardServletMultipartResolver
+2024-10-30 08:31:22,145 DEBUG [http-nio-9990-exec-2] o.s.w.s.DispatcherServlet [DispatcherServlet.java:545] 
+Detected AcceptHeaderLocaleResolver
+2024-10-30 08:31:22,145 DEBUG [http-nio-9990-exec-2] o.s.w.s.DispatcherServlet [DispatcherServlet.java:570] 
+Detected FixedThemeResolver
+2024-10-30 08:31:22,182 DEBUG [http-nio-9990-exec-2] o.s.w.s.DispatcherServlet [DispatcherServlet.java:720] 
+Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7ae5716c
+2024-10-30 08:31:22,182 DEBUG [http-nio-9990-exec-2] o.s.w.s.DispatcherServlet [DispatcherServlet.java:784] 
+Detected org.springframework.web.servlet.support.SessionFlashMapManager@389bd483
+2024-10-30 08:31:22,183 DEBUG [http-nio-9990-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:542] 
+enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-10-30 08:31:22,183 INFO [http-nio-9990-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] 
+Completed initialization in 39 ms
+2024-10-30 08:31:22,205 DEBUG [http-nio-9990-exec-2] o.s.w.s.DispatcherServlet [LogFormatUtils.java:119] 
+GET "/api/v2/getBillData?BillId=52344072&ccbAccount=7566073616", parameters={masked}
+2024-10-30 08:31:22,220 DEBUG [http-nio-9990-exec-2] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:522] 
+Mapped to com.nws.api.controller.DiamControllerVer2#getBillDataService(String, String, HttpServletRequest, HttpServletResponse, Map)
+2024-10-30 08:31:22,221 INFO [http-nio-9990-exec-2] c.n.a.i.BaseInterceptor [BaseInterceptor.java:52] 
+Inside prehandle
+2024-10-30 08:31:22,257 INFO [http-nio-9990-exec-2] c.n.a.i.BaseInterceptor [BaseInterceptor.java:232] 
+############Request Processing started for request-id ab and esbURL is /api/v2/getBillData
+2024-10-30 08:31:22,325 INFO [http-nio-9990-exec-2] c.n.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code getBillData
+2024-10-30 08:31:28,233 DEBUG [http-nio-9990-exec-2] c.n.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-10-30 08:31:28,236 INFO [http-nio-9990-exec-2] c.n.a.i.BaseInterceptor [BaseInterceptor.java:269] 
+Inside DDOS filtering
+2024-10-30 08:31:28,236 INFO [http-nio-9990-exec-2] c.n.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-10-30 08:31:28,452 INFO [http-nio-9990-exec-2] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-10-30 08:31:28,452 INFO [http-nio-9990-exec-2] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:76] 
+In Timestamp validation
+2024-10-30 08:31:28,454 INFO [http-nio-9990-exec-2] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:82] 
+The timestamp difference is--
+2024-10-30 08:31:28,454 ERROR [http-nio-9990-exec-2] c.n.a.i.BaseInterceptor [BaseInterceptor.java:333] 
+Invalid timestamp
+2024-10-30 08:31:28,456 INFO [http-nio-9990-exec-2] c.n.a.p.ExceptionProcessor [ExceptionProcessor.java:28] 
+Auditing records in AuditDataProcessor.
+2024-10-30 08:31:29,114 INFO [pool-2-thread-1] c.n.a.p.ExceptionProcessor [ExceptionProcessor.java:80] 
+Auditing in database.
+2024-10-30 08:31:29,121 DEBUG [http-nio-9990-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1131] 
+Completed 200 OK
+2024-10-30 08:32:29,998 DEBUG [http-nio-9990-exec-4] o.s.w.s.DispatcherServlet [LogFormatUtils.java:119] 
+GET "/api/v2/getBillData?BillId=52344072&ccbAccount=7566073616", parameters={masked}
+2024-10-30 08:32:29,998 DEBUG [http-nio-9990-exec-4] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:522] 
+Mapped to com.nws.api.controller.DiamControllerVer2#getBillDataService(String, String, HttpServletRequest, HttpServletResponse, Map)
+2024-10-30 08:32:29,998 INFO [http-nio-9990-exec-4] c.n.a.i.BaseInterceptor [BaseInterceptor.java:52] 
+Inside prehandle
+2024-10-30 08:32:29,998 INFO [http-nio-9990-exec-4] c.n.a.i.BaseInterceptor [BaseInterceptor.java:232] 
+############Request Processing started for request-id ab and esbURL is /api/v2/getBillData
+2024-10-30 08:32:30,089 INFO [http-nio-9990-exec-4] c.n.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code getBillData
+2024-10-30 08:32:30,173 DEBUG [http-nio-9990-exec-4] c.n.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-10-30 08:32:30,174 INFO [http-nio-9990-exec-4] c.n.a.i.BaseInterceptor [BaseInterceptor.java:269] 
+Inside DDOS filtering
+2024-10-30 08:32:30,175 INFO [http-nio-9990-exec-4] c.n.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-10-30 08:32:30,258 INFO [http-nio-9990-exec-4] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-10-30 08:32:30,258 INFO [http-nio-9990-exec-4] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:76] 
+In Timestamp validation
+2024-10-30 08:32:30,259 INFO [http-nio-9990-exec-4] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:82] 
+The timestamp difference is--
+2024-10-30 08:32:30,260 INFO [http-nio-9990-exec-4] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:122] 
+Validating auth key for consumerCode ESP with auth key 36997d562e054a318475c4025b913338
+2024-10-30 08:32:30,260 INFO [http-nio-9990-exec-4] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-10-30 08:32:30,512 INFO [http-nio-9990-exec-4] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:124] 
+Auth Key from DB for Consumer code ESP is  36997d562e054a318475c4025b913338
+2024-10-30 08:32:30,513 INFO [http-nio-9990-exec-4] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-10-30 08:32:30,747 INFO [http-nio-9990-exec-4] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:175] 
+Whitelist Process Starts here....
+2024-10-30 08:32:30,747 INFO [http-nio-9990-exec-4] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:187] 
+Inside is whiteListed
+2024-10-30 08:32:30,842 DEBUG [http-nio-9990-exec-4] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:234] 
+Consumer allowed for getBillData
+2024-10-30 08:32:31,053 INFO [http-nio-9990-exec-4] c.n.a.s.DiamServiceVer2 [DiamServiceVer2.java:491] 
+Entered::AbstractEmailDelivery::getRestTemplate()
+2024-10-30 08:32:31,122 DEBUG [http-nio-9990-exec-4] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+HTTP GET http://10.180.10.20/api/v1/GetBillData?BillId=52344072&ccbAccount=7566073616
+2024-10-30 08:32:31,131 DEBUG [http-nio-9990-exec-4] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Accept=[text/plain, application/json, application/*+json, */*]
+2024-10-30 08:32:31,391 DEBUG [http-nio-9990-exec-4] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Response 200 OK
+2024-10-30 08:32:31,397 DEBUG [http-nio-9990-exec-4] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Reading to [java.lang.String] as "application/json;charset=utf-8"
+2024-10-30 08:32:32,229 DEBUG [http-nio-9990-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor [AbstractMessageConverterMethodProcessor.java:268] 
+Using 'application/json', given [*/*] and supported [application/json]
+2024-10-30 08:32:32,231 DEBUG [http-nio-9990-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor [LogFormatUtils.java:119] 
+Writing ["{"responseHeader":{"esbStatus":"SUCCESS", "targetStatus":" SUCCESS","esbResponseCode":"200" },"respo (truncated)..."]
+2024-10-30 08:32:32,243 INFO [http-nio-9990-exec-4] c.n.a.p.AuditLogProcessor [AuditLogProcessor.java:31] 
+Auditing records in AuditData Processor.
+2024-10-30 08:32:32,614 INFO [pool-3-thread-1] c.n.a.p.AuditLogProcessor [AuditLogProcessor.java:83] 
+Auditing in database.
+2024-10-30 08:32:32,967 DEBUG [http-nio-9990-exec-4] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1131] 
+Completed 200 OK
+2024-10-30 08:33:17,175 DEBUG [http-nio-9990-exec-6] o.s.w.s.DispatcherServlet [LogFormatUtils.java:119] 
+GET "/api/v2/GetGISDetails/1/641033.584/2609733.272", parameters={}
+2024-10-30 08:33:17,183 DEBUG [http-nio-9990-exec-6] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:522] 
+Mapped to com.nws.api.controller.DiamControllerVer2#getRecordsGISService(Optional, Optional, Optional, HttpServletRequest, HttpServletResponse, Map)
+2024-10-30 08:33:17,184 INFO [http-nio-9990-exec-6] c.n.a.i.BaseInterceptor [BaseInterceptor.java:52] 
+Inside prehandle
+2024-10-30 08:33:17,184 INFO [http-nio-9990-exec-6] c.n.a.i.BaseInterceptor [BaseInterceptor.java:232] 
+############Request Processing started for request-id ab and esbURL is /api/v2/GetGISDetails/1/641033.584/2609733.272
+2024-10-30 08:33:17,186 INFO [http-nio-9990-exec-6] c.n.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code GetGISDetails
+2024-10-30 08:33:17,469 DEBUG [http-nio-9990-exec-6] c.n.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-10-30 08:33:17,479 INFO [http-nio-9990-exec-6] c.n.a.i.BaseInterceptor [BaseInterceptor.java:269] 
+Inside DDOS filtering
+2024-10-30 08:33:17,479 INFO [http-nio-9990-exec-6] c.n.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-10-30 08:33:18,044 INFO [http-nio-9990-exec-6] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-10-30 08:33:18,045 INFO [http-nio-9990-exec-6] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:76] 
+In Timestamp validation
+2024-10-30 08:33:18,045 INFO [http-nio-9990-exec-6] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:82] 
+The timestamp difference is--
+2024-10-30 08:33:18,045 INFO [http-nio-9990-exec-6] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:122] 
+Validating auth key for consumerCode ESP with auth key 36997d562e054a318475c4025b913338
+2024-10-30 08:33:18,045 INFO [http-nio-9990-exec-6] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-10-30 08:33:18,122 INFO [http-nio-9990-exec-6] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:124] 
+Auth Key from DB for Consumer code ESP is  36997d562e054a318475c4025b913338
+2024-10-30 08:33:18,123 INFO [http-nio-9990-exec-6] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
